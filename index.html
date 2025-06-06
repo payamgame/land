@@ -109,6 +109,22 @@
       width: 140px;
       border-radius: 8px;
     }
+    .video-container {
+      margin: 2rem auto;
+      max-width: 800px;
+      text-align: center;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 450px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    }
+    .video-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #00796b;
+    }
     @media (max-width: 600px) {
       h1 {
         font-size: 1.5rem;
@@ -119,6 +135,9 @@
       .buttons a {
         width: 100%;
         text-align: center;
+      }
+      .video-container iframe {
+        height: 250px;
       }
     }
   </style>
@@ -136,6 +155,11 @@
       با گرافیک ساده ولی باحال، تجربه‌ای متفاوت از زندگی روستایی و اقتصادی واست رقم می‌زنه.
     </p>
   </header>
+
+  <div class="video-container">
+    <div class="video-title">معرفی بازی عصر فیروزه ۱</div>
+    <iframe src="https://www.aparat.com/video/video/embed/videohash/rrxc46z/vt/frame" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+  </div>
 
   <section class="slider">
     <img src="https://s.cafebazaar.ir/images/upload/screenshot/com.payam.Age_Of_Turquoise-098056611591.jpg" alt="اسکرین ۱">
@@ -180,4 +204,7 @@
   <footer>
     توسعه داده شده توسط پیام گیم | جواد شیبانی
     <br>
-    <img src="https://bayanbox.ir/view/4002414621501768354/baner.jpg" alt="لوگوی شرکت" class="company-logo
+    <img src="https://bayanbox.ir/view/4002414621501768354/baner.jpg" alt="لوگوی شرکت" class="company-logo">
+  </footer>
+</body>
+</html>
